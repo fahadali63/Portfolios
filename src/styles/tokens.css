@@ -1,0 +1,164 @@
+/* Design tokens — the only place colours, glass and spacing are defined.
+   Two appearances: dark (default) and light. The theme toggle sets <html data-theme>; without it the
+   system setting decides. Contrast figures: docs/design-system.md and `node scripts/contrast.mjs`. */
+
+:root {
+  color-scheme: dark;
+
+  --bg: #14100d;
+  --scrim-rgb: 20, 16, 12;
+
+  /* ── Glass (strength = fill alpha + blur) ── */
+  --glass-fill: rgba(52, 45, 40, 0.58);
+  --glass-blur: blur(40px) saturate(1.3);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --glass-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.14);
+  --glass-shadow: 0 24px 60px rgba(0, 0, 0, 0.32);
+  --glass-opaque: #2e2824;
+
+  /* ── Fills inside windows (never blurred) ── */
+  --fill-raised: rgba(255, 255, 255, 0.06);
+  --fill-hover: rgba(255, 255, 255, 0.1);
+  --fill-inset: rgba(0, 0, 0, 0.2);
+  --hairline: rgba(255, 255, 255, 0.14);
+
+  /* ── Ink ── */
+  --text-1: #ffffff;
+  --text-2: rgba(255, 255, 255, 0.8); /* the floor — nothing is fainter */
+  --ink-strong: #ffffff; /* selection rings, active outlines */
+  --outline-soft: rgba(255, 255, 255, 0.55);
+  --mono-bg: #4a433c;
+  --danger: #ffc2ad;
+
+  /* ── Tracks: aqua = planning, coral = business. Marks and fills, never body text. ── */
+  --accent-planning: #7fdcd2;
+  --accent-business: #ff9a6e;
+  --fill-planning: #7fdcd2;
+  --on-planning: #1a1613;
+  --fill-business: #f2703f;
+  --on-business: #1a1613;
+
+  /* ── Documents and thumbnails (the same "ink card" in both themes) ── */
+  --mat: #f4f1ec;
+  --card-ink: #1b1714;
+
+  /* ── Focus ── */
+  --focus-ring: 2px solid #ffffff;
+  --focus-halo: 0 0 0 4px rgba(26, 22, 19, 0.85);
+
+  /* ── Shape ── */
+  --r-window: 28px;
+  --r-card: 18px;
+  --r-tile: 16px;
+  --r-pill: 999px;
+
+  /* ── Space (8-point) ── */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 20px;
+  --s-6: 24px;
+  --s-8: 32px;
+  --s-12: 48px;
+  --s-16: 64px;
+  --gap: 20px;
+  --pad: 24px;
+
+  /* ── Layout ── */
+  --rail-w: 72px;
+  --rail-left: 24px;
+  --content-max: 1320px;
+  --topbar-h: 56px;
+  --tabbar-h: 64px;
+
+  /* ── Motion ── */
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --t-fast: 180ms;
+}
+
+/* ── Light appearance ── */
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #efe8de;
+  --scrim-rgb: 239, 232, 222;
+  --glass-fill: rgba(255, 252, 247, 0.62);
+  --glass-blur: blur(40px) saturate(1.4);
+  --glass-border: rgba(255, 255, 255, 0.8);
+  --glass-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --glass-shadow: 0 24px 60px rgba(70, 48, 30, 0.13), 0 0 0 1px rgba(70, 48, 30, 0.07);
+  --glass-opaque: #f8f4ee;
+  --fill-raised: rgba(255, 255, 255, 0.6);
+  --fill-hover: rgba(70, 48, 30, 0.07);
+  --fill-inset: rgba(70, 48, 30, 0.065);
+  --hairline: rgba(70, 48, 30, 0.14);
+  --text-1: #1d1814;
+  --text-2: rgba(29, 24, 20, 0.76);
+  --ink-strong: #1d1814;
+  --outline-soft: rgba(29, 24, 20, 0.42);
+  --mono-bg: #ffffff;
+  --danger: #a3341a;
+  --accent-planning: #0e7c72;
+  --accent-business: #c4512a;
+  --fill-planning: #0e7c72;
+  --on-planning: #ffffff;
+  --fill-business: #b8461e;
+  --on-business: #ffffff;
+  --mat: #ffffff;
+  --focus-ring: 2px solid #1d1814;
+  --focus-halo: 0 0 0 4px rgba(255, 255, 255, 0.92);
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) {
+    color-scheme: light;
+    --bg: #efe8de;
+    --scrim-rgb: 239, 232, 222;
+    --glass-fill: rgba(255, 252, 247, 0.62);
+    --glass-blur: blur(40px) saturate(1.4);
+    --glass-border: rgba(255, 255, 255, 0.8);
+    --glass-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    --glass-shadow: 0 24px 60px rgba(70, 48, 30, 0.13), 0 0 0 1px rgba(70, 48, 30, 0.07);
+    --glass-opaque: #f8f4ee;
+    --fill-raised: rgba(255, 255, 255, 0.6);
+    --fill-hover: rgba(70, 48, 30, 0.07);
+    --fill-inset: rgba(70, 48, 30, 0.065);
+    --hairline: rgba(70, 48, 30, 0.14);
+    --text-1: #1d1814;
+    --text-2: rgba(29, 24, 20, 0.76);
+    --ink-strong: #1d1814;
+    --outline-soft: rgba(29, 24, 20, 0.42);
+    --mono-bg: #ffffff;
+    --danger: #a3341a;
+    --accent-planning: #0e7c72;
+    --accent-business: #c4512a;
+    --fill-planning: #0e7c72;
+    --on-planning: #ffffff;
+    --fill-business: #b8461e;
+    --on-business: #ffffff;
+    --mat: #ffffff;
+    --focus-ring: 2px solid #1d1814;
+    --focus-halo: 0 0 0 4px rgba(255, 255, 255, 0.92);
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --r-window: 22px;
+    --pad: 16px;
+    --gap: 16px;
+  }
+}
+
+/* Increased contrast: stronger edges and secondary text (glass goes opaque in globals.css). */
+@media (prefers-contrast: more) {
+  :root {
+    --glass-border: rgba(255, 255, 255, 0.4);
+    --hairline: rgba(255, 255, 255, 0.32);
+    --text-2: rgba(255, 255, 255, 0.92);
+  }
+  :root[data-theme="light"] {
+    --glass-border: rgba(29, 24, 20, 0.45);
+    --hairline: rgba(29, 24, 20, 0.3);
+    --text-2: rgba(29, 24, 20, 0.9);
+  }
+}

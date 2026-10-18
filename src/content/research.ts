@@ -1,0 +1,108 @@
+// Academic research (UET Lahore coursework). Verbatim from v1 (site:/urban-planning#research dialogs).
+// Cover pages are never shown: they list classmates' roll numbers.
+import { PORTFOLIO_DRIVE } from "./contact.ts";
+import { defineList, Research } from "./schema.ts";
+
+export const research = defineList("research.ts", Research, [
+  {
+    slug: "orange-line-tod",
+    category: "Transit & TOD",
+    title: "Socio-Economic Patterns and TOD Impact of the Orange Line Metro",
+    topic: "Transit-oriented development along Lahore's first metro line",
+    pages: 30,
+    summary:
+      "Evaluates how far TOD principles have taken hold within 0.5 km of Orange Line stations, using questionnaires and interviews with residents, planners and urban experts. Some stations show better pedestrian access and emerging commercial activity, but integrated planning is lacking; the study recommends policy, land-use and pedestrian-infrastructure interventions.",
+    course: "Town Planning Studio",
+    authors: "Group 03 — Fahad Ali, Mawa Mahmood, Anum Imran, Eman Jahangir, Muhammad Zeeshan, Saad Nizam",
+    figure: { image: "projects/orange-line-landuse/page-1", alt: "Land-use map of 0.5 km buffers around Orange Line Metro stations" },
+    driveUrl: PORTFOLIO_DRIVE,
+    source: "site:/urban-planning#research dialog",
+    verified: true,
+  },
+  {
+    slug: "delhi-gate",
+    category: "Heritage & Conservation",
+    title: "Urban Conservation and Regeneration Challenges in Historic Inner-City Areas: Delhi Gate, Lahore",
+    topic: "Regeneration of the Walled City's Delhi Gate precinct",
+    pages: 27,
+    summary:
+      "A case study of the Akbar-era Delhi Gate and its surroundings — Shahi Hammam, Wazir Khan Mosque and historic havelis — examining the pressures on the historic fabric and proposing regeneration measures.",
+    course: "Urban Conservation & Regeneration",
+    authors: "Fahad Ali, Rao Babar Ali, Muhammad Zeeshan, Muhammad Anas, Abdul Rehman Sudais, Muhammad Haroon",
+    figure: { image: "projects/delhi-gate-regeneration/page-1", alt: "Proposed regeneration map of the Delhi Gate area" },
+    driveUrl: PORTFOLIO_DRIVE,
+    source: "site:/urban-planning#research dialog",
+    verified: true,
+  },
+  {
+    slug: "heritage-strategies",
+    category: "Heritage & Conservation",
+    title: "Urban and Heritage Conservation Strategies for Selected Historic Sites in Lahore",
+    topic: "Conservation of Lahore's secondary monuments",
+    pages: 23,
+    summary:
+      "Looks at the accelerating degradation of Neevin Masjid, the Tomb of Khan-e-Jahan Zafar Jang Kokaltash and the Tomb of Nadira Begum, and sets out conservation strategies that balance modernization with cultural continuity.",
+    course: "Urban Conservation & Regeneration",
+    authors: "Fahad Ali, Rao Babar Ali, Muhammad Zeeshan, Muhammad Anas, Abdul Rehman Sudais, Muhammad Haroon, Zubair Ahmad",
+    figure: { image: "projects/heritage-buffer-map/page-1", alt: "Buffer map of 0.5 km around the three historic sites studied" },
+    driveUrl: PORTFOLIO_DRIVE,
+    source: "site:/urban-planning#research dialog",
+    verified: true,
+  },
+  {
+    slug: "model-town-cycle-track",
+    category: "Transportation",
+    title: "Cycle Track Proposal for Model Town, Lahore",
+    topic: "Cycling infrastructure in a garden town",
+    pages: 8,
+    summary:
+      "Proposes a ~14.5 km cycle track through Model Town's North, South, East and West avenues, link roads and circular road — passing eight roundabouts — to ease traffic and encourage cycling for daily commutes.",
+    course: "Transportation Engineering",
+    figure: { image: "research/model-town-cycle-track", alt: "Map of Model Town, Lahore, with its circular road and central park" },
+    driveUrl: PORTFOLIO_DRIVE,
+    source: "site:/urban-planning#research dialog (authors not printed on the report)",
+    verified: true,
+  },
+  {
+    slug: "ecological-footprint",
+    category: "Environmental Planning",
+    title: "Ecological Footprint of Shadbagh",
+    topic: "Measuring a Lahore neighbourhood's environmental demand",
+    pages: 70,
+    summary: "A 70-page study of the ecological footprint of Shadbagh, Lahore, and why footprint studies matter for planning urban areas.",
+    course: "Environmental Planning & Management",
+    authors: "Group 01 — Fahad Ali with nine classmates",
+    driveUrl: PORTFOLIO_DRIVE,
+    source: "site:/urban-planning#research dialog",
+    verified: true,
+  },
+  {
+    slug: "ici-epm",
+    category: "Environmental Planning",
+    title: "Relation of EP&M with the Industries Department",
+    topic: "Industrial growth and environmental compliance in Punjab",
+    pages: 10,
+    year: "2024",
+    summary:
+      "Based on an interview with the Deputy Advisor of ICI Punjab (Sep 2024), the report examines the department's role in industrial growth, industrial estates, environmental compliance and sustainable practice.",
+    course: "Environmental Planning & Management",
+    authors: "Group 03 — Fahad Ali, Muhammad Zeeshan, Eman Jahangir",
+    driveUrl: PORTFOLIO_DRIVE,
+    source: "site:/urban-planning#research dialog",
+    verified: true,
+  },
+  {
+    slug: "earthquake",
+    category: "Environmental Planning",
+    title: "Earthquake as an Environmental Problem",
+    topic: "Seismic risk and preparedness in Pakistan",
+    pages: 15,
+    summary:
+      "An individual report on earthquakes as environmental disasters — global impacts, Pakistan's seismic zones, the 2005 Kashmir and 2013 Balochistan earthquakes, and the state of building regulation and preparedness.",
+    course: "Environmental Planning & Management",
+    authors: "Fahad Ali (individual)",
+    driveUrl: PORTFOLIO_DRIVE,
+    source: "site:/urban-planning#research dialog",
+    verified: true,
+  },
+]);

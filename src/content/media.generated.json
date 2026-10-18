@@ -1,0 +1,566 @@
+{
+  "certificates/ipp-seminar": {
+    "src": "/media/certificates/ipp-seminar.webp",
+    "avif": "/media/certificates/ipp-seminar.avif",
+    "width": 1800,
+    "height": 2538
+  },
+  "certificates/ipp-seminar-tile": {
+    "src": "/media/certificates/ipp-seminar-tile.webp",
+    "avif": "/media/certificates/ipp-seminar-tile.avif",
+    "width": 640,
+    "height": 903
+  },
+  "certificates/itdbm": {
+    "src": "/media/certificates/itdbm.webp",
+    "avif": "/media/certificates/itdbm.avif",
+    "width": 1800,
+    "height": 1273
+  },
+  "certificates/itdbm-tile": {
+    "src": "/media/certificates/itdbm-tile.webp",
+    "avif": "/media/certificates/itdbm-tile.avif",
+    "width": 640,
+    "height": 453
+  },
+  "certificates/lda-letter": {
+    "src": "/media/certificates/lda-letter.webp",
+    "avif": "/media/certificates/lda-letter.avif",
+    "width": 1800,
+    "height": 2902
+  },
+  "certificates/lda-letter-tile": {
+    "src": "/media/certificates/lda-letter-tile.webp",
+    "avif": "/media/certificates/lda-letter-tile.avif",
+    "width": 640,
+    "height": 1032
+  },
+  "certificates/winter-school-award": {
+    "src": "/media/certificates/winter-school-award.webp",
+    "avif": "/media/certificates/winter-school-award.avif",
+    "width": 1800,
+    "height": 1273
+  },
+  "certificates/winter-school-award-tile": {
+    "src": "/media/certificates/winter-school-award-tile.webp",
+    "avif": "/media/certificates/winter-school-award-tile.avif",
+    "width": 640,
+    "height": 453
+  },
+  "certificates/winter-school-participation": {
+    "src": "/media/certificates/winter-school-participation.webp",
+    "avif": "/media/certificates/winter-school-participation.avif",
+    "width": 1280,
+    "height": 781
+  },
+  "certificates/winter-school-participation-tile": {
+    "src": "/media/certificates/winter-school-participation-tile.webp",
+    "avif": "/media/certificates/winter-school-participation-tile.avif",
+    "width": 640,
+    "height": 391
+  },
+  "env/plan-dark-desktop": {
+    "src": "/media/env/plan-dark-desktop.webp",
+    "avif": "/media/env/plan-dark-desktop.avif",
+    "width": 2400,
+    "height": 1500
+  },
+  "env/plan-dark-mobile": {
+    "src": "/media/env/plan-dark-mobile.webp",
+    "avif": "/media/env/plan-dark-mobile.avif",
+    "width": 720,
+    "height": 1280
+  },
+  "env/plan-light-desktop": {
+    "src": "/media/env/plan-light-desktop.webp",
+    "avif": "/media/env/plan-light-desktop.avif",
+    "width": 2400,
+    "height": 1500
+  },
+  "env/plan-light-mobile": {
+    "src": "/media/env/plan-light-mobile.webp",
+    "avif": "/media/env/plan-light-mobile.avif",
+    "width": 720,
+    "height": 1280
+  },
+  "portrait/fahad-avatar": {
+    "src": "/media/portrait/fahad-avatar.webp",
+    "avif": "/media/portrait/fahad-avatar.avif",
+    "width": 160,
+    "height": 160
+  },
+  "portrait/fahad-avatar@2x": {
+    "src": "/media/portrait/fahad-avatar@2x.webp",
+    "avif": "/media/portrait/fahad-avatar@2x.avif",
+    "width": 320,
+    "height": 320
+  },
+  "portrait/fahad-figure": {
+    "src": "/media/portrait/fahad-figure.webp",
+    "avif": "/media/portrait/fahad-figure.avif",
+    "width": 463,
+    "height": 849
+  },
+  "portrait/fahad-photo": {
+    "src": "/media/portrait/fahad-photo.webp",
+    "avif": "/media/portrait/fahad-photo.avif",
+    "width": 640,
+    "height": 800
+  },
+  "projects/allama-iqbal-industrial-estate/page-1": {
+    "src": "/media/projects/allama-iqbal-industrial-estate/page-1.webp",
+    "avif": "/media/projects/allama-iqbal-industrial-estate/page-1.avif",
+    "width": 1800,
+    "height": 1223
+  },
+  "projects/allama-iqbal-industrial-estate/page-2": {
+    "src": "/media/projects/allama-iqbal-industrial-estate/page-2.webp",
+    "avif": "/media/projects/allama-iqbal-industrial-estate/page-2.avif",
+    "width": 1800,
+    "height": 973
+  },
+  "projects/allama-iqbal-industrial-estate/page-3": {
+    "src": "/media/projects/allama-iqbal-industrial-estate/page-3.webp",
+    "avif": "/media/projects/allama-iqbal-industrial-estate/page-3.avif",
+    "width": 1800,
+    "height": 1961
+  },
+  "projects/allama-iqbal-industrial-estate/page-4": {
+    "src": "/media/projects/allama-iqbal-industrial-estate/page-4.webp",
+    "avif": "/media/projects/allama-iqbal-industrial-estate/page-4.avif",
+    "width": 1800,
+    "height": 1961
+  },
+  "projects/allama-iqbal-industrial-estate/tile": {
+    "src": "/media/projects/allama-iqbal-industrial-estate/tile.webp",
+    "avif": "/media/projects/allama-iqbal-industrial-estate/tile.avif",
+    "width": 800,
+    "height": 600
+  },
+  "projects/delhi-gate-regeneration/page-1": {
+    "src": "/media/projects/delhi-gate-regeneration/page-1.webp",
+    "avif": "/media/projects/delhi-gate-regeneration/page-1.avif",
+    "width": 1800,
+    "height": 1271
+  },
+  "projects/delhi-gate-regeneration/tile": {
+    "src": "/media/projects/delhi-gate-regeneration/tile.webp",
+    "avif": "/media/projects/delhi-gate-regeneration/tile.avif",
+    "width": 800,
+    "height": 600
+  },
+  "projects/fa-avenue-1/page-1": {
+    "src": "/media/projects/fa-avenue-1/page-1.webp",
+    "avif": "/media/projects/fa-avenue-1/page-1.avif",
+    "width": 1800,
+    "height": 1273
+  },
+  "projects/fa-avenue-1/tile": {
+    "src": "/media/projects/fa-avenue-1/tile.webp",
+    "avif": "/media/projects/fa-avenue-1/tile.avif",
+    "width": 800,
+    "height": 600
+  },
+  "projects/fasan-villas/page-1": {
+    "src": "/media/projects/fasan-villas/page-1.webp",
+    "avif": "/media/projects/fasan-villas/page-1.avif",
+    "width": 1800,
+    "height": 2544
+  },
+  "projects/fasan-villas/tile": {
+    "src": "/media/projects/fasan-villas/tile.webp",
+    "avif": "/media/projects/fasan-villas/tile.avif",
+    "width": 800,
+    "height": 600
+  },
+  "projects/hanjarwal-tod/page-1": {
+    "src": "/media/projects/hanjarwal-tod/page-1.webp",
+    "avif": "/media/projects/hanjarwal-tod/page-1.avif",
+    "width": 1800,
+    "height": 1531
+  },
+  "projects/hanjarwal-tod/page-2": {
+    "src": "/media/projects/hanjarwal-tod/page-2.webp",
+    "avif": "/media/projects/hanjarwal-tod/page-2.avif",
+    "width": 1800,
+    "height": 1531
+  },
+  "projects/hanjarwal-tod/tile": {
+    "src": "/media/projects/hanjarwal-tod/tile.webp",
+    "avif": "/media/projects/hanjarwal-tod/tile.avif",
+    "width": 800,
+    "height": 600
+  },
+  "projects/heritage-buffer-map/page-1": {
+    "src": "/media/projects/heritage-buffer-map/page-1.webp",
+    "avif": "/media/projects/heritage-buffer-map/page-1.avif",
+    "width": 1800,
+    "height": 1273
+  },
+  "projects/heritage-buffer-map/tile": {
+    "src": "/media/projects/heritage-buffer-map/tile.webp",
+    "avif": "/media/projects/heritage-buffer-map/tile.avif",
+    "width": 800,
+    "height": 600
+  },
+  "projects/house-44x39/page-1": {
+    "src": "/media/projects/house-44x39/page-1.webp",
+    "avif": "/media/projects/house-44x39/page-1.avif",
+    "width": 1800,
+    "height": 1271
+  },
+  "projects/house-44x39/page-2": {
+    "src": "/media/projects/house-44x39/page-2.webp",
+    "avif": "/media/projects/house-44x39/page-2.avif",
+    "width": 1800,
+    "height": 1273
+  },
+  "projects/house-44x39/page-3": {
+    "src": "/media/projects/house-44x39/page-3.webp",
+    "avif": "/media/projects/house-44x39/page-3.avif",
+    "width": 1800,
+    "height": 1273
+  },
+  "projects/house-44x39/page-4": {
+    "src": "/media/projects/house-44x39/page-4.webp",
+    "avif": "/media/projects/house-44x39/page-4.avif",
+    "width": 1800,
+    "height": 1273
+  },
+  "projects/house-44x39/page-5": {
+    "src": "/media/projects/house-44x39/page-5.webp",
+    "avif": "/media/projects/house-44x39/page-5.avif",
+    "width": 1800,
+    "height": 1273
+  },
+  "projects/house-44x39/page-6": {
+    "src": "/media/projects/house-44x39/page-6.webp",
+    "avif": "/media/projects/house-44x39/page-6.avif",
+    "width": 1800,
+    "height": 1273
+  },
+  "projects/house-44x39/page-7": {
+    "src": "/media/projects/house-44x39/page-7.webp",
+    "avif": "/media/projects/house-44x39/page-7.avif",
+    "width": 1800,
+    "height": 1271
+  },
+  "projects/house-44x39/tile": {
+    "src": "/media/projects/house-44x39/tile.webp",
+    "avif": "/media/projects/house-44x39/tile.avif",
+    "width": 800,
+    "height": 600
+  },
+  "projects/orange-line-landuse/page-1": {
+    "src": "/media/projects/orange-line-landuse/page-1.webp",
+    "avif": "/media/projects/orange-line-landuse/page-1.avif",
+    "width": 1800,
+    "height": 1272
+  },
+  "projects/orange-line-landuse/tile": {
+    "src": "/media/projects/orange-line-landuse/tile.webp",
+    "avif": "/media/projects/orange-line-landuse/tile.avif",
+    "width": 800,
+    "height": 600
+  },
+  "projects/residential-cad-series/page-1": {
+    "src": "/media/projects/residential-cad-series/page-1.webp",
+    "avif": "/media/projects/residential-cad-series/page-1.avif",
+    "width": 1800,
+    "height": 1568
+  },
+  "projects/residential-cad-series/page-2": {
+    "src": "/media/projects/residential-cad-series/page-2.webp",
+    "avif": "/media/projects/residential-cad-series/page-2.avif",
+    "width": 1800,
+    "height": 3639
+  },
+  "projects/residential-cad-series/page-3": {
+    "src": "/media/projects/residential-cad-series/page-3.webp",
+    "avif": "/media/projects/residential-cad-series/page-3.avif",
+    "width": 1800,
+    "height": 3639
+  },
+  "projects/residential-cad-series/page-4": {
+    "src": "/media/projects/residential-cad-series/page-4.webp",
+    "avif": "/media/projects/residential-cad-series/page-4.avif",
+    "width": 1800,
+    "height": 3639
+  },
+  "projects/residential-cad-series/page-5": {
+    "src": "/media/projects/residential-cad-series/page-5.webp",
+    "avif": "/media/projects/residential-cad-series/page-5.avif",
+    "width": 1800,
+    "height": 3639
+  },
+  "projects/residential-cad-series/tile": {
+    "src": "/media/projects/residential-cad-series/tile.webp",
+    "avif": "/media/projects/residential-cad-series/tile.avif",
+    "width": 800,
+    "height": 600
+  },
+  "research/model-town-cycle-track": {
+    "src": "/media/research/model-town-cycle-track.webp",
+    "avif": "/media/research/model-town-cycle-track.avif",
+    "width": 1800,
+    "height": 1576
+  },
+  "thumbs/cert-akbari-letter": {
+    "src": "/media/thumbs/cert-akbari-letter.webp",
+    "avif": "/media/thumbs/cert-akbari-letter.avif",
+    "width": 480,
+    "height": 640
+  },
+  "thumbs/cert-employee-of-the-month": {
+    "src": "/media/thumbs/cert-employee-of-the-month.webp",
+    "avif": "/media/thumbs/cert-employee-of-the-month.avif",
+    "width": 480,
+    "height": 640
+  },
+  "thumbs/cert-excellence-in-creativity": {
+    "src": "/media/thumbs/cert-excellence-in-creativity.webp",
+    "avif": "/media/thumbs/cert-excellence-in-creativity.avif",
+    "width": 480,
+    "height": 640
+  },
+  "thumbs/cert-google-ai-essentials": {
+    "src": "/media/thumbs/cert-google-ai-essentials.webp",
+    "avif": "/media/thumbs/cert-google-ai-essentials.avif",
+    "width": 480,
+    "height": 640
+  },
+  "thumbs/cert-ideas-experience-letter": {
+    "src": "/media/thumbs/cert-ideas-experience-letter.webp",
+    "avif": "/media/thumbs/cert-ideas-experience-letter.avif",
+    "width": 480,
+    "height": 640
+  },
+  "thumbs/cert-incentives": {
+    "src": "/media/thumbs/cert-incentives.webp",
+    "avif": "/media/thumbs/cert-incentives.avif",
+    "width": 480,
+    "height": 640
+  },
+  "thumbs/cert-ipp-seminar": {
+    "src": "/media/thumbs/cert-ipp-seminar.webp",
+    "avif": "/media/thumbs/cert-ipp-seminar.avif",
+    "width": 480,
+    "height": 640
+  },
+  "thumbs/cert-itdbm": {
+    "src": "/media/thumbs/cert-itdbm.webp",
+    "avif": "/media/thumbs/cert-itdbm.avif",
+    "width": 480,
+    "height": 640
+  },
+  "thumbs/cert-lda-letter": {
+    "src": "/media/thumbs/cert-lda-letter.webp",
+    "avif": "/media/thumbs/cert-lda-letter.avif",
+    "width": 480,
+    "height": 640
+  },
+  "thumbs/cert-rising-star": {
+    "src": "/media/thumbs/cert-rising-star.webp",
+    "avif": "/media/thumbs/cert-rising-star.avif",
+    "width": 480,
+    "height": 640
+  },
+  "thumbs/cert-spatio-letter": {
+    "src": "/media/thumbs/cert-spatio-letter.webp",
+    "avif": "/media/thumbs/cert-spatio-letter.avif",
+    "width": 480,
+    "height": 640
+  },
+  "thumbs/cert-union-associates": {
+    "src": "/media/thumbs/cert-union-associates.webp",
+    "avif": "/media/thumbs/cert-union-associates.avif",
+    "width": 480,
+    "height": 640
+  },
+  "thumbs/cert-winter-school-award": {
+    "src": "/media/thumbs/cert-winter-school-award.webp",
+    "avif": "/media/thumbs/cert-winter-school-award.avif",
+    "width": 480,
+    "height": 640
+  },
+  "thumbs/cert-winter-school-participation": {
+    "src": "/media/thumbs/cert-winter-school-participation.webp",
+    "avif": "/media/thumbs/cert-winter-school-participation.avif",
+    "width": 480,
+    "height": 640
+  },
+  "thumbs/engagement-consumer-health-enterprise": {
+    "src": "/media/thumbs/engagement-consumer-health-enterprise.webp",
+    "avif": "/media/thumbs/engagement-consumer-health-enterprise.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/engagement-enneagram-series": {
+    "src": "/media/thumbs/engagement-enneagram-series.webp",
+    "avif": "/media/thumbs/engagement-enneagram-series.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/engagement-fiverr-animation": {
+    "src": "/media/thumbs/engagement-fiverr-animation.webp",
+    "avif": "/media/thumbs/engagement-fiverr-animation.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/engagement-it-certification-body": {
+    "src": "/media/thumbs/engagement-it-certification-body.webp",
+    "avif": "/media/thumbs/engagement-it-certification-body.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/project-allama-iqbal-industrial-estate": {
+    "src": "/media/thumbs/project-allama-iqbal-industrial-estate.webp",
+    "avif": "/media/thumbs/project-allama-iqbal-industrial-estate.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/project-delhi-gate-regeneration": {
+    "src": "/media/thumbs/project-delhi-gate-regeneration.webp",
+    "avif": "/media/thumbs/project-delhi-gate-regeneration.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/project-fa-avenue-1": {
+    "src": "/media/thumbs/project-fa-avenue-1.webp",
+    "avif": "/media/thumbs/project-fa-avenue-1.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/project-fasan-villas": {
+    "src": "/media/thumbs/project-fasan-villas.webp",
+    "avif": "/media/thumbs/project-fasan-villas.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/project-hanjarwal-tod": {
+    "src": "/media/thumbs/project-hanjarwal-tod.webp",
+    "avif": "/media/thumbs/project-hanjarwal-tod.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/project-heritage-buffer-map": {
+    "src": "/media/thumbs/project-heritage-buffer-map.webp",
+    "avif": "/media/thumbs/project-heritage-buffer-map.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/project-house-44x39": {
+    "src": "/media/thumbs/project-house-44x39.webp",
+    "avif": "/media/thumbs/project-house-44x39.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/project-orange-line-landuse": {
+    "src": "/media/thumbs/project-orange-line-landuse.webp",
+    "avif": "/media/thumbs/project-orange-line-landuse.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/project-residential-cad-series": {
+    "src": "/media/thumbs/project-residential-cad-series.webp",
+    "avif": "/media/thumbs/project-residential-cad-series.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/research-delhi-gate": {
+    "src": "/media/thumbs/research-delhi-gate.webp",
+    "avif": "/media/thumbs/research-delhi-gate.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/research-earthquake": {
+    "src": "/media/thumbs/research-earthquake.webp",
+    "avif": "/media/thumbs/research-earthquake.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/research-ecological-footprint": {
+    "src": "/media/thumbs/research-ecological-footprint.webp",
+    "avif": "/media/thumbs/research-ecological-footprint.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/research-heritage-strategies": {
+    "src": "/media/thumbs/research-heritage-strategies.webp",
+    "avif": "/media/thumbs/research-heritage-strategies.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/research-ici-epm": {
+    "src": "/media/thumbs/research-ici-epm.webp",
+    "avif": "/media/thumbs/research-ici-epm.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/research-model-town-cycle-track": {
+    "src": "/media/thumbs/research-model-town-cycle-track.webp",
+    "avif": "/media/thumbs/research-model-town-cycle-track.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/research-orange-line-tod": {
+    "src": "/media/thumbs/research-orange-line-tod.webp",
+    "avif": "/media/thumbs/research-orange-line-tod.avif",
+    "width": 800,
+    "height": 600
+  },
+  "thumbs/role-al-akbari": {
+    "src": "/media/thumbs/role-al-akbari.webp",
+    "avif": "/media/thumbs/role-al-akbari.avif",
+    "width": 480,
+    "height": 480
+  },
+  "thumbs/role-ideas-associate": {
+    "src": "/media/thumbs/role-ideas-associate.webp",
+    "avif": "/media/thumbs/role-ideas-associate.avif",
+    "width": 480,
+    "height": 480
+  },
+  "thumbs/role-ideas-specialist": {
+    "src": "/media/thumbs/role-ideas-specialist.webp",
+    "avif": "/media/thumbs/role-ideas-specialist.avif",
+    "width": 480,
+    "height": 480
+  },
+  "thumbs/role-innotec": {
+    "src": "/media/thumbs/role-innotec.webp",
+    "avif": "/media/thumbs/role-innotec.avif",
+    "width": 480,
+    "height": 480
+  },
+  "thumbs/role-lda": {
+    "src": "/media/thumbs/role-lda.webp",
+    "avif": "/media/thumbs/role-lda.avif",
+    "width": 480,
+    "height": 480
+  },
+  "thumbs/role-spatio-gis-specialist": {
+    "src": "/media/thumbs/role-spatio-gis-specialist.webp",
+    "avif": "/media/thumbs/role-spatio-gis-specialist.avif",
+    "width": 480,
+    "height": 480
+  },
+  "thumbs/role-spatio-team-lead": {
+    "src": "/media/thumbs/role-spatio-team-lead.webp",
+    "avif": "/media/thumbs/role-spatio-team-lead.avif",
+    "width": 480,
+    "height": 480
+  },
+  "thumbs/role-spider-marketing": {
+    "src": "/media/thumbs/role-spider-marketing.webp",
+    "avif": "/media/thumbs/role-spider-marketing.avif",
+    "width": 480,
+    "height": 480
+  },
+  "thumbs/role-union-associates": {
+    "src": "/media/thumbs/role-union-associates.webp",
+    "avif": "/media/thumbs/role-union-associates.avif",
+    "width": 480,
+    "height": 480
+  }
+}

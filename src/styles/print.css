@@ -1,0 +1,129 @@
+/* Print (and the generated résumé PDFs): white page, dark text, no glass, no photo, no navigation. */
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm 14mm 16mm;
+  }
+  :root {
+    --text-1: #1b1f26;
+    --text-2: #3d4350;
+    --hairline: #d5d8de;
+    --fill-raised: transparent;
+    --fill-inset: #f1f2f4;
+    --track: #1b1f26;
+    --track-fill: #1b1f26;
+  }
+  html,
+  body {
+    background: #fff !important;
+    color: #1b1f26 !important;
+    font-size: 10pt;
+    line-height: 1.45;
+  }
+  .env,
+  .rail,
+  .tabbar,
+  .topbar,
+  .locbar-wrap,
+  .page-label,
+  .chipbar,
+  .sections-window,
+  .footer,
+  .profile-side,
+  .sheet-layer,
+  .no-print,
+  .skip-link,
+  .toast,
+  .settle-hide-print,
+  video {
+    display: none !important;
+  }
+  .shell {
+    padding: 0 !important;
+  }
+  .glass,
+  .card,
+  .metric,
+  .window {
+    background: none !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+    padding: 0 !important;
+  }
+  .window {
+    margin-bottom: 10pt;
+  }
+  .settle {
+    animation: none !important;
+  }
+  img {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .profile-grid {
+    display: block !important;
+  }
+  .print-head {
+    border-bottom: 1px solid #d5d8de;
+    padding-bottom: 8pt;
+    margin-bottom: 12pt;
+  }
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+  h1,
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+  li,
+  .card,
+  .row {
+    break-inside: avoid;
+  }
+  .t-display {
+    font-size: 26pt;
+  }
+  .t-title {
+    font-size: 15pt;
+  }
+  .t-heading {
+    font-size: 11.5pt;
+  }
+  .t-metric {
+    font-size: 16pt;
+  }
+  .mono,
+  .avatar,
+  .chev,
+  .status-pill {
+    display: none !important;
+  }
+  .chip {
+    background: none !important;
+    padding: 0 !important;
+    min-height: 0 !important;
+  }
+  .chip + .chip::before {
+    content: "· ";
+  }
+  .btn,
+  .link,
+  button {
+    display: none !important;
+  }
+  [data-print-show] {
+    display: revert !important;
+  }
+  [role="tabpanel"][hidden] {
+    display: block !important;
+  }
+}
+.print-only {
+  display: none;
+}
