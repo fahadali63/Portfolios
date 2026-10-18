@@ -2,7 +2,7 @@
 
 /** Portfolio folder on Google Drive. This is the ONLY folder link allowed on the site (check-content enforces it). */
 export const PORTFOLIO_DRIVE = "https://drive.google.com/drive/folders/1mQkZ0MWUa1Gh4jjPMZGz8N5Pdt3R_9bO";
-// Résumés: generated from the profile pages by `npm run resumes` (print layout → PDF).
+// Résumés: your own PDFs, copied unchanged into public/resume/ by `npm run resumes`.
 
 export const contact = {
   email: "mfahadali9463@gmail.com",
@@ -24,9 +24,10 @@ export const contact = {
   coordinates: "31.5204° N, 74.3587° E",
   timeZone: "Asia/Karachi",
 
+  /** Your own résumé PDFs, copied unchanged from content-source/Portfolio/ by `npm run resumes`. */
   resumes: [
-    { track: "planning", label: "Planning résumé", file: "/resume/fahad-ali-urban-planning.pdf" },
-    { track: "business", label: "Business résumé", file: "/resume/fahad-ali-business-development.pdf" },
+    { track: "planning", label: "Planning résumé", file: "/resume/fahad-ali-urban-planning.pdf", downloadName: "Fahad Ali Resume TP Sep 2026.pdf" },
+    { track: "business", label: "Business résumé", file: "/resume/fahad-ali-business-development.pdf", downloadName: "Fahad Ali BDE Resume Sept. 2025.pdf" },
   ],
 
   /**

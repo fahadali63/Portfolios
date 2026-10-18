@@ -105,7 +105,7 @@ export default function UrbanPlanningPage() {
             </div>
             <div className="mt-6 flex flex-wrap gap-3 no-print">
               {hasResume && (
-                <a href={resume.file} download className="btn btn-primary" data-track="planning">
+                <a href={resume.file} download={resume.downloadName} className="btn btn-primary" data-track="planning">
                   <Download size={18} strokeWidth={1.75} aria-hidden="true" /> Download résumé (PDF)
                 </a>
               )}

@@ -102,7 +102,7 @@ export default function BusinessDevelopmentPage() {
             )}
             <div className="mt-6 flex flex-wrap gap-3 no-print">
               {hasResume && (
-                <a href={resume.file} download className="btn btn-primary" data-track="business">
+                <a href={resume.file} download={resume.downloadName} className="btn btn-primary" data-track="business">
                   <Download size={18} strokeWidth={1.75} aria-hidden="true" /> Download résumé (PDF)
                 </a>
               )}

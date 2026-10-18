@@ -40,7 +40,7 @@ Open http://localhost:3000.
 | `npm run media` | Rebuilds images from your original files (drawings, certificates, portrait, backdrop) | **yes** |
 | `npm run thumbs` | Rebuilds the ink-card thumbnails for every item | no |
 | `npm run og` | Rebuilds the share images (`public/og/`) | no |
-| `npm run resumes` | Prints both profile pages to `public/resume/*.pdf` (run after `build`, then `build` again) | no |
+| `npm run resumes` | Copies your own résumé PDFs from `content-source/Portfolio/` into `public/resume/` (unchanged) | **yes** |
 | `npm run qa` | Accessibility scan (both themes), no-JavaScript check, privacy scan of `out/` | no |
 
 `content-source/` (your private originals) is never committed. Everything the site needs from it is

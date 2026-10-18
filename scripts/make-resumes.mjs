@@ -1,29 +1,24 @@
-// npm run resumes — prints each profile page with the print stylesheet into public/resume/*.pdf.
-// Builds the site first (needs out/), then rebuild once more so the "Download résumé" buttons appear.
+// npm run resumes — copies your own résumé PDFs, unchanged, from content-source/Portfolio/ into public/resume/.
 import fs from "node:fs";
 import path from "node:path";
-import { chromium } from "playwright";
-import { serve } from "./lib/serve.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
+const SRC = path.join(ROOT, "content-source/Portfolio");
 const OUT_DIR = path.join(ROOT, "public/resume");
-if (!fs.existsSync(path.join(ROOT, "out"))) {
-  console.error("Run `npm run build` first — this script prints the built pages.");
-  process.exit(1);
-}
+
+// [source file in content-source/Portfolio, file served by the site]
+const RESUMES = [
+  ["Fahad Ali Resume TP Sep 2026.pdf", "fahad-ali-urban-planning.pdf"],
+  ["Fahad Ali BDE Resume Sept. 2025.pdf", "fahad-ali-business-development.pdf"],
+];
+
 fs.mkdirSync(OUT_DIR, { recursive: true });
-const server = await serve(path.join(ROOT, "out"), 4199);
-const browser = await chromium.launch();
-const page = await browser.newPage();
-await page.addInitScript(() => localStorage.setItem("theme", "light"));
-for (const [route, file] of [
-  ["/urban-planning", "fahad-ali-urban-planning.pdf"],
-  ["/business-development", "fahad-ali-business-development.pdf"],
-]) {
-  await page.goto(`http://localhost:4199${route}`, { waitUntil: "networkidle" });
-  await page.emulateMedia({ media: "print" });
-  await page.pdf({ path: path.join(OUT_DIR, file), format: "A4", printBackground: false, margin: { top: "14mm", bottom: "16mm", left: "14mm", right: "14mm" } });
-  console.log("  ", `public/resume/${file}`, Math.round(fs.statSync(path.join(OUT_DIR, file)).size / 1024), "KB");
+for (const [src, file] of RESUMES) {
+  const from = path.join(SRC, src);
+  if (!fs.existsSync(from)) {
+    console.error(`Missing ${path.relative(ROOT, from)}`);
+    process.exit(1);
+  }
+  fs.copyFileSync(from, path.join(OUT_DIR, file));
+  console.log("  ", `public/resume/${file}`, "←", src, Math.round(fs.statSync(from).size / 1024), "KB");
 }
-await browser.close();
-server.close();

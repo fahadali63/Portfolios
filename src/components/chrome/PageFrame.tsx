@@ -9,7 +9,7 @@ import { LocationBar } from "./LocationBar";
 import { TopBar } from "./TopBar";
 import { routeName, type RouteKey } from "./routes";
 
-/** Résumé PDFs exist only after `npm run resumes`; the menu lists what's there. */
+/** The menu lists the résumé PDFs present in public/resume/. */
 const availableResumes = contact.resumes.filter((r) => fs.existsSync(path.join(process.cwd(), "public", r.file)));
 
 /**
@@ -29,7 +29,7 @@ export function PageFrame({ route, children, sheets }: { route: RouteKey; childr
           <span aria-hidden="true">{route === "home" ? "Fahad Ali" : routeName[route]}</span>
         </div>
         <TopBar route={route} />
-        <LocationBar route={route} resumes={availableResumes.map(({ label, file }) => ({ label, file }))} />
+        <LocationBar route={route} resumes={availableResumes.map(({ label, file, downloadName }) => ({ label, file, downloadName }))} />
         <div className="print-only print-head" aria-hidden="true">
           <p style={{ fontSize: "20pt", fontWeight: 600 }}>{site.name}</p>
           <p>

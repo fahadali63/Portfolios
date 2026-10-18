@@ -8,7 +8,7 @@ import { LinkedInGlyph } from "./LinkedInGlyph";
 import { routeHref, routeName, type RouteKey } from "./routes";
 import { copyText, useActiveSection } from "./useActiveSection";
 
-type Resume = { label: string; file: string };
+type Resume = { label: string; file: string; downloadName: string };
 
 /**
  * The reference's browser bar, given a real job: a breadcrumb of where you are
@@ -93,11 +93,11 @@ export function LocationBar({ route, resumes }: { route: RouteKey; resumes: Resu
               {menu && (
                 <div id="resume-menu" className="popover glass">
                   {resumes.map((r) => (
-                    <a key={r.file} href={r.file} download onClick={() => setMenu(false)}>
+                    <a key={r.file} href={r.file} download={r.downloadName} onClick={() => setMenu(false)}>
                       <FileText size={18} strokeWidth={1.75} aria-hidden="true" />
                       <span>
                         {r.label}
-                        <span className="t-meta block">PDF · generated from this site</span>
+                        <span className="t-meta block">PDF</span>
                       </span>
                     </a>
                   ))}
